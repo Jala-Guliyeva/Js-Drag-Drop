@@ -1,0 +1,47 @@
+body {
+  background-color: rgba(2, 2, 255, 0.769);
+}
+
+body .todo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+body .todo-wrapper .todo-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+body .todo-wrapper .todo-box .input-box form {
+  display: flex;
+}
+
+body .todo-wrapper .todo-box .input-box form .btn {
+  margin-left: 10px;
+}
+
+body .todo-wrapper .done-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+  width: 25%;
+  margin-left: 20px;
+}
+
+body .todo-list-item {
+  background-color: #c1e4e3;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body .todo-list-item .remove-btn {
+  background-color: blue;
+  color: #fff;
+}
